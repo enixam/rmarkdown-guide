@@ -1,3 +1,9 @@
+knitr::opts_chunk$set(
+  warning = FALSE,
+  message = FALSE,
+  fig.align = "center"
+)
+
 import_example_result <- function(file, redo = FALSE, vwidth = 700, vheight = 400, ...){
   file <- file.path("examples",file)
   webshot <- paste0(xfun::with_ext(file, "png"))
