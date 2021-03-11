@@ -1,0 +1,27 @@
+# (PART) 基础 {.unnumbered}
+
+# R Markdown 是什么 {#what-is-rmarkdown}
+
+
+本章概括 R Markdown 相关的概念性内容, 什么是 R Markdown, 我们能用它来干什么, R Markdown 背后的工具, 以及将它们统一起来的更宏大的远景。如果读者更愿意从实践学起, 可以跳过本章, 从 第 \@ref(\#what-is-rmarkdown) 章开始。如果读者已经具有了 R Markdown 的基础知识, 书写过一些 R Markdown 的文档, 也可以直接开始阅读[第二部分](\@ref(document))。
+
+
+
+
+## R Markdown 的用途 {#rmarkdown-gallery}
+
+自由多元的扩展生态是驱动开源工具的关键之一。
+
+[R Markdown]() 是基于
+
+### 分析报告
+
+### 交互仪表
+
+### 建立个人网站
+
+## Markdown 语法
+
+## 更大的视角
+
+简要介绍文学编程和可重复性研究
