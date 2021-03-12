@@ -1,6 +1,6 @@
---- 
+---
 title: "R Markdown 指南"
-author: 
+author:
   - 王祎帆
   - 闫求识
   - 高春辉
@@ -20,24 +20,6 @@ github-repo: cosname/rmarkdown-guide
 ---
 
 # 前言 {-}
-
-
-
-欢迎来到《R Markdown 中文指南》的在线版。[R Markdown](https://rmarkdown.rstudio.com/) 是 [R](https://www.r-project.org/) 语言的一个扩展包(package)。它为数据科学工作提供了一个交互式的环境, 用户可以即时地处理, 分析和可视化数据。工作完成后, 可以将一键把文档生成网页, PDF 和幻灯片等多种形式, 将文字, 代码和图片优美地组合呈现。
-
-但是, R Markdown 的用途远不止此。本质上, 它仅仅规定了一套组合代码与文字的格式，用户可以随意添加内容并扩展该格式 。因此, 无论你是否将 R 语言作为主要工具, 习惯编写代码, 从事数据科学，或者专注于技术协作, R Markdown 都可以为你所用。 本书的 \@ref(rmarkdown-gallery) 节简要地展示了 R Markdown 丰富的用例, 你可以。相信你在读完本书之后, 也能在找到它的用武之地, 甚至加入 R Markdown 的开发者行列, 为它添加新的可能性。
-
-本书的读者只需对 R 语言和 RStudio 的使用有基本了解, 例如知道如何安装包, 使用 R 中的一些常见函数, 以及在 RStudio 中创建项目和文件。如果你没有以下基础, 我们推荐以下快速入门资料
-
-
-<!-- 需要补充说明 -->
-
-- [R 语言教程](https://www.math.pku.edu.cn/teachers/lidf/docs/Rbook/html/_Rbook/index.html): 北京大学李东风老师《R 语言教程》的草稿
-
-- [153 分钟学会 R](https://cran.r-project.org/doc/contrib/Liu-FAQ.pdf): 用 152 个 Q&A 解答初学者的常见问题。作者刘思喆。
-
-
-...
 
 ```{r, setup, include=FALSE}
 if (knitr::is_html_output()) {
